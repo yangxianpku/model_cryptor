@@ -2,7 +2,8 @@
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-yellogreen.svg)](https://opensource.org/licenses/Apache-2.0)
 
-![Version](https://img.shields.io/badge/Version-v0.1)
+![Version](https://img.shields.io/badge/Version-v0.1-blue)
+
 
 深度学习推理模型通常以文件的形式进行保存，相应的推理引擎通过读取模型文件并反序列化即可进行推理过程. 这样一来，任何获得模型文件的人均可以用于自己的项目中, 这使得模型所有者的权益得不到保障. 本工具包实现了对常见模型文件进行加密存储，获得模型的人需要使用原始加密秘钥对模型进行解密才能进行推理，以使得模型开发者的权益得到保障.
 
