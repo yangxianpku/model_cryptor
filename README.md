@@ -112,4 +112,4 @@ print(pred[:10])
 
 ## 4. 项目维护
 
-@copyright 杨现 CPIC yangxian-001@cpic.com.cn
+@copyright 杨现
