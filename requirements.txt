@@ -1,0 +1,7 @@
+tensorrt
+onnx
+onnxruntime 
+pytorch 
+cryptography 
+numpy
+torch2trt
