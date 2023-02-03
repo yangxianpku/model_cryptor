@@ -64,7 +64,7 @@ cryptor = CryptorFactory.instance(ModelType.MODEL_TORCH)
 # 2. 使用指定的密钥加密模型并保存为加密后的模型文件    
 cryptor.encrypt(model=model_file, crypt_key=crypt_key, crypted_model=model_encrypted_file)
 
-# 3. 读取加密过的文件并解密返货模型    
+# 3. 读取加密过的文件并解密返回模型    
 model = cryptor.decrypt(model_encrypted_file, crypt_key=crypt_key, map_location = "cpu")
 
 # 4. 使用解密后的模型推理
